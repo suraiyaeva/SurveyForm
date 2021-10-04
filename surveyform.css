@@ -1,0 +1,107 @@
+
+body::before{
+    content:'';
+    position:fixed;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    background-image:linear-gradient(115deg,rgba(167, 128, 167, 0.8),rgba(163, 100, 182, 0.7)),url("https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg");
+    top:0;
+    left:0;
+
+}
+.container{
+    color: white;
+    margin:0 auto;
+    text-align: center;
+    font-size: large;
+}
+h1{
+    font-size: 2.8rem;
+    margin:10px;
+}
+h3{
+    font-style: italic;
+    text-shadow: 2px 2px 2px regba(0,0,0,0.4);
+}
+
+.form{
+    background-color: rgb(109, 65, 103);
+    height:100%;
+    width:700px;
+    margin:0 auto;
+    border-radius: 5px;
+    padding:30px;
+}
+.form-field{
+    padding:10px;
+    text-align: left;
+    font-size: large;
+    margin-bottom:0 auto 1.25rem auto;
+    
+}
+label{
+    font-size: large;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+input{
+    text-align: left;
+    height:40px;
+    border-radius: 4px;
+}
+.select{
+    width:100%;
+    padding:12px;
+    border-radius: 4px;
+    border-color: darkmagenta;
+    outline: 0;
+    box-shadow:0 0 0 0.2rem rgba(112, 42, 91, 0.945)
+}
+textarea{
+    width:100%;
+    height:120px;
+    resize:vertical;
+    margin:0;
+}
+button{
+    display:block;
+    width:100%;
+    padding:15px;
+    color:white;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 1rem;
+}
+.clue{
+    font-size: 16px;
+}
+#name,#email,#age{
+    width:100%;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.input-radio,
+.checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+  
+}
+#name,#age,#email:focus{
+    border-color: darkmagenta;
+    outline: 0;
+    box-shadow:0 0 0 0.2rem rgba(112, 42, 91, 0.945)
+}
+
+
+
+
